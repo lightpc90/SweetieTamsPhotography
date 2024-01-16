@@ -9,11 +9,17 @@ const Navbar = () => {
   return (
     <div>
       <div className="bg-[#5A6D66] h-16 drop-shadow-lg flex gap-2 text-white lg:text-xl justify-end items-center px-5">
+        <Link
+          href="/"
+          className="hover:text-[#f59e0b] hover:font-bold hover:text-2xl"
+        >
+          Home
+        </Link>
         <div
           onClick={() => {
             setIsOpened(!isOpened);
           }}
-          className="flex justify-center items-center hover:cursor-pointer"
+          className="flex justify-center items-center hover:font-bold hover:text-[#f59e0b] hover:text-2xl hover:cursor-pointer"
         >
           <div>Portfolio</div>
           <div>...</div>

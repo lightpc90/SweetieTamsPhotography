@@ -8,7 +8,15 @@ const MobileNavLinks = () => {
   const [isOpened, setIsOpened] = useState(false);
   return (
     <div className="flex flex-col p-5 bg-slaet-200 drop-shadow-md">
-      <div className="hover:cursor-pointer" onClick={()=>{setIsOpened(!isOpened)}}>Portfolio...</div>
+      <Link href="/">Home</Link>
+      <div
+        className="hover:cursor-pointer"
+        onClick={() => {
+          setIsOpened(!isOpened);
+        }}
+      >
+        Portfolio...
+      </div>
       {isOpened && (
         <div>
           <PortfolioLinks />
