@@ -15,8 +15,8 @@ const MobileNavLinks = () => {
         </div>
       )}
       <Link href="/">Contact</Link>
-      <Link href="/">About</Link>
-      <Link href="/">Blog</Link>
+      <Link href="/about">About</Link>
+      <Link href="/blog">Blog</Link>
     </div>
   );
 };

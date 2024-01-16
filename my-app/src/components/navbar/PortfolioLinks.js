@@ -8,7 +8,7 @@ const PortfolioLinks = () => {
           <Link href='/portfolio/fashions'>Fashions</Link>
           <Link href='/portfolio/events'>Events</Link>
           <Link href='/portfolio/remotes'>Remotes</Link>
-          <Link href='/portfolio/training'>Training</Link>
+          <Link href='/training'>Training</Link>
     </div>
   )
 }
