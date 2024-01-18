@@ -20,8 +20,8 @@ const FooterSiteMap = () => {
           <Link href="/portfolio/portraits">Portraits</Link>
           <Link href="/portfolio/fashions">Fashions</Link>
           <Link href="/portfolio/events">Events</Link>
-          <Link href="/portfolio/remote">Remote</Link>
-          <Link href="/porfolio/training">Training</Link>
+          <Link href="/portfolio/remotes">Remote</Link>
+          <Link href="/training">Training</Link>
         </div>
       </div>
 
