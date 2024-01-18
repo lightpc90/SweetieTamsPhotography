@@ -7,7 +7,7 @@ import PortfolioLinks from "./PortfolioLinks";
 const MobileNavLinks = () => {
   const [isOpened, setIsOpened] = useState(false);
   return (
-    <div className="flex flex-col p-5 bg-slaet-200 drop-shadow-md">
+    <div className="flex flex-col p-5 bg-slate-200 drop-shadow-md">
       <Link href="/">Home</Link>
       <div
         className="hover:cursor-pointer"

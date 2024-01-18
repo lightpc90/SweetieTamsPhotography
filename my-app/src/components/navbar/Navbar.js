@@ -7,7 +7,7 @@ import PortfolioLinks from "./PortfolioLinks";
 const Navbar = () => {
   const [isOpened, setIsOpened] = useState(false);
   return (
-    <div>
+    <div className="">
       <div className="bg-[#5A6D66] h-16 drop-shadow-lg flex gap-2 text-white lg:text-xl justify-end items-center px-5">
         <Link
           href="/"

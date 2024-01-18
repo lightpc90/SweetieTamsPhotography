@@ -11,8 +11,6 @@ const Header = () => {
         <div className="w-full md:w-6/12"><HeaderCTA/></div>
         <div className="w-full md:w-6/12"><HeaderImage/></div>
       </div>
-      <div className="hidden md:block"><Navbar /></div>
-      <div className="md:hidden"><MobileNav/></div>
     </div>
   );
 };
