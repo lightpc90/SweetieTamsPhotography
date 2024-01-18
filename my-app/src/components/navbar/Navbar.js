@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useState } from "react";
 import PortfolioLinks from "./PortfolioLinks";
 
+import { SlArrowDown, SlArrowRight } from "react-icons/sl";
+
 const Navbar = () => {
   const [isOpened, setIsOpened] = useState(false);
   return (
@@ -21,8 +23,10 @@ const Navbar = () => {
           }}
           className="flex justify-center items-center hover:font-bold hover:text-[#f59e0b] hover:text-2xl hover:cursor-pointer"
         >
-          <div>Portfolio</div>
-          <div>...</div>
+          <div className="flex gap-1 items-center">
+            <div>Portfolio</div>
+            <div className="text-sm">{isOpened ? <SlArrowDown/>:<SlArrowRight/> }</div>
+          </div>
         </div>
         <Link
           href="/contact"
