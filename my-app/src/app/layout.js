@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <Layout>
           <div
-            className="min-h-[900px] bg-cover bg-center bg-no-repeat"
+            className="min-h-[900px] bg-cover bg-center bg-fixed bg-no-repeat"
             style={{ backgroundImage: 'url("/sweetie site bg.png")' }}
           >
             {children}

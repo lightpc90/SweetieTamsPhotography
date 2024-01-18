@@ -1,7 +1,12 @@
+
+
 import React from 'react'
+import ImageSlider from '../slideshow/ImageSlider';
 
 const HeaderImage = () => {
-  return <div className="bg-[#d1fae5] h-[600px] text-center">HeaderImage</div>;
+  return <div className=" h-[400px] md:h-[800px] flex justify-center items-center text-center">
+    <ImageSlider />
+  </div>;
 }
 
 export default HeaderImage
