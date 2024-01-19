@@ -35,7 +35,7 @@ const Navbar = () => {
           href="/contact"
           className="hover:text-[#f59e0b] hover:font-bold hover:text-2xl"
         >
-          Contact
+          Chat Me!
         </Link>
         <Link
           href="/about"

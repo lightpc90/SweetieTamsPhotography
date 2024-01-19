@@ -44,7 +44,7 @@ const MobileNavLinks = () => {
         }}
         href="/"
       >
-        Contact
+        Chat Me!
       </Link>
       <Link
         onClick={() => {
