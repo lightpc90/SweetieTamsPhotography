@@ -4,10 +4,13 @@ import Link from "next/link";
 import { useState } from "react";
 import PortfolioLinks from "./PortfolioLinks";
 
+
 import { SlArrowDown, SlArrowRight } from "react-icons/sl";
 
 const Navbar = () => {
-  const [isOpened, setIsOpened] = useState(false);
+ 
+  const [isOpened, setIOpened] = useState(false)
+  
   return (
     <div className="">
       <div className="bg-[#5A6D66] h-16 drop-shadow-lg flex gap-2 text-white lg:text-xl justify-end items-center px-5">
@@ -19,7 +22,7 @@ const Navbar = () => {
         </Link>
         <div
           onClick={() => {
-            setIsOpened(!isOpened);
+            setIOpened(!isOpened);
           }}
           className="flex justify-center items-center hover:font-bold hover:text-[#f59e0b] hover:text-2xl hover:cursor-pointer"
         >
@@ -49,7 +52,7 @@ const Navbar = () => {
       </div>
       {isOpened && (
         <div>
-          <PortfolioLinks />
+          <PortfolioLinks/>
         </div>
       )}
     </div>
