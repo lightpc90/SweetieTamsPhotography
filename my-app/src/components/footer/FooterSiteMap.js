@@ -12,7 +12,7 @@ const FooterSiteMap = () => {
         {/* Navigation Links */}
         <div className="flex flex-col gap-2 md:text-2xl mb-5">
           <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
-            Chat Me!
+            Chat Me
           </Link>
           <Link href="/about">About</Link>
           <Link href="/blog">Blog</Link>
@@ -20,9 +20,9 @@ const FooterSiteMap = () => {
         {/* Porfolio Links */}
         <p className="text-[#5A6D66] text-xl font-bold mt-10 mb-2">Portfolio</p>
         <div className="flex flex-col gap-2 md:text-2xl">
-          <Link href="/portfolio/portraits">Portraits</Link>
-          <Link href="/portfolio/fashions">Fashions</Link>
-          <Link href="/portfolio/events">Events</Link>
+          <Link href="/portfolio/portraits">Portrait</Link>
+          <Link href="/portfolio/fashions">Fashion</Link>
+          <Link href="/portfolio/events">Event</Link>
           <Link href="/portfolio/remotes">Remote</Link>
           <Link href="/training">Training</Link>
         </div>

@@ -5,7 +5,7 @@ import Image from "next/image";
 const Portraits = () => {
   return (
     <div>
-      <div className="font-bold text-5xl lg:text-7xl text-center">Portraits</div>
+      <div className="font-bold text-5xl lg:text-7xl text-center">Portrait</div>
       <div className="flex flex-wrap justify-center items-center gap-3 my-10">
         {portraits.map((img, i) => (
           <Image

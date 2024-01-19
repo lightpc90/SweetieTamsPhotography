@@ -40,7 +40,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="hover:text-[#f59e0b] hover:font-bold hover:text-2xl"
         >
-          Chat Me!
+          Chat Me
         </Link>
         <Link
           href="/about"

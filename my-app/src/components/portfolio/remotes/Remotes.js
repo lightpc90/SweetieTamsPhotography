@@ -6,7 +6,7 @@ const Remotes = () => {
   return (
     <div>
       <div className="font-bold text-5xl lg:text-7xl text-center">
-        Remotes
+        Remote
       </div>
       <div className="flex flex-wrap justify-center items-center gap-3 my-10">
         {remotes.map((img, i) => (

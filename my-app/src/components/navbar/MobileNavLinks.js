@@ -47,7 +47,7 @@ const MobileNavLinks = () => {
           setIsNavOpened(false);
         }}
       >
-        Chat Me!
+        Chat Me
       </Link>
       <Link
         onClick={() => {

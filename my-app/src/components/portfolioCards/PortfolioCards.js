@@ -6,10 +6,10 @@ import event from "../../../public/Wedding and Event/R23.jpg";
 import PortfolioCardLayout from "./portfolioCardLayout";
 const PortfolioCards = () => {
   const coverPictures = [
-    { img: portrait, name: "Portraits", link:"/portfolio/portraits" },
-    { img: fashion, name: "Fashions", link: "/portfolio/fashions" },
-    { img: remote, name: "Remotes", link: "/portfolio/remotes" },
-    { img: event, name: "Events", link:"/portfolio/events" },
+    { img: portrait, name: "Portrait", link:"/portfolio/portraits" },
+    { img: fashion, name: "Fashion", link: "/portfolio/fashions" },
+    { img: remote, name: "Remote", link: "/portfolio/remotes" },
+    { img: event, name: "Event", link:"/portfolio/events" },
   ];
   return <div className="flex lg:w-8/12  justify-center items-center flex-wrap gap-3">
     {coverPictures.map((coverPicture, i) => (

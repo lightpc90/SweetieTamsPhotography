@@ -12,7 +12,7 @@ const PortfolioLinks = () => {
           setIsNavOpened(false);
         }}
       >
-        Portraits
+        Portrait
       </Link>
       <Link
         onClick={() => {
@@ -20,7 +20,7 @@ const PortfolioLinks = () => {
         }}
         href="/portfolio/fashions"
       >
-        Fashions
+        Fashion
       </Link>
       <Link
         onClick={() => {
@@ -28,7 +28,7 @@ const PortfolioLinks = () => {
         }}
         href="/portfolio/events"
       >
-        Events
+        Event
       </Link>
       <Link
         onClick={() => {
@@ -36,7 +36,7 @@ const PortfolioLinks = () => {
         }}
         href="/portfolio/remotes"
       >
-        Remotes
+        Remote
       </Link>
       <Link
         onClick={() => {

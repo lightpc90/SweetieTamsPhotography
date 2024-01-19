@@ -1,5 +1,4 @@
 import React from 'react'
-import img1 from '../../../public/Remote/AM1.jpg'
 import Link from 'next/link';
 
 const PortfolioCardLayout = ({coverPicture}) => {
