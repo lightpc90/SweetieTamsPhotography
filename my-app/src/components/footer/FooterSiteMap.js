@@ -10,7 +10,7 @@ const FooterSiteMap = () => {
         </p>
         {/* Navigation Links */}
         <div className="flex flex-col gap-2 md:text-2xl mb-5">
-          <Link href="/contact">Contact</Link>
+          <div>Chat Me!</div>
           <Link href="/about">About</Link>
           <Link href="/blog">Blog</Link>
         </div>

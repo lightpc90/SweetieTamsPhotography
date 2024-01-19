@@ -1,0 +1,1 @@
+export const testimonies = [{content: 1, name: "John Doe"}, {content: 2, name: "Gagu gaga"}, {content: 3, name: "kuku keke"}, {content: 4, name: "hula balu"}, {content: 5, name: "tom tom"}]

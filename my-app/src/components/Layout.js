@@ -8,10 +8,10 @@ const Layout = ({children}) => {
   return (
     <div className="flex flex-col min-h-screen justify-between">
       <Header />
-      <div className="hidden md:block sticky top-0">
+      <div className="hidden md:block sticky top-0 z-50">
         <Navbar />
       </div>
-      <div className="md:hidden sticky top-0">
+      <div className="md:hidden sticky top-0 z-50">
         <MobileNav />
       </div>
       {children}

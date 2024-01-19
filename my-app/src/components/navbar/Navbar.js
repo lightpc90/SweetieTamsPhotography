@@ -31,12 +31,11 @@ const Navbar = () => {
             <div className="text-sm">{isOpened ? <SlArrowDown/>:<SlArrowRight/> }</div>
           </div>
         </div>
-        <Link
-          href="/contact"
+        <div
           className="hover:text-[#f59e0b] hover:font-bold hover:text-2xl"
         >
           Chat Me!
-        </Link>
+        </div>
         <Link
           href="/about"
           className="hover:text-[#f59e0b] hover:font-bold hover:text-2xl"

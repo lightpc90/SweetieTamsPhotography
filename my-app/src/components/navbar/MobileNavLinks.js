@@ -38,14 +38,13 @@ const MobileNavLinks = () => {
           <PortfolioLinks />
         </div>
       )}
-      <Link
+      <div
         onClick={() => {
           setIsNavOpened(false);
         }}
-        href="/"
       >
         Chat Me!
-      </Link>
+      </div>
       <Link
         onClick={() => {
           setIsNavOpened(false);

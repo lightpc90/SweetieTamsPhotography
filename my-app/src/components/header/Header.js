@@ -1,8 +1,6 @@
 import React from "react";
 import HeaderCTA from "./headerCTA";
 import HeaderImage from "./headerImage";
-import Navbar from "../navbar/Navbar";
-import MobileNav from "../navbar/MobileNav";
 
 const Header = () => {
   return (
