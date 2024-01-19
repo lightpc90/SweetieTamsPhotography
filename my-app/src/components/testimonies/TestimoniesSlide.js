@@ -14,7 +14,7 @@ const TestimoniesSlide = () => {
         {testimonies.map((testimony, i) => (
           <div key={i} className="w-full">
             <div
-              className="flex justify-center h-[250px] lg:h-[400px] items-center bg-cover bg-center bg-no-repeat"
+              className="flex justify-center min-h-[250px] lg:min-h-[400px] items-center bg-cover bg-center bg-no-repeat"
               style={{ backgroundImage: `url()` }}
                 >
                     <TestimonyLayout testimony={testimony}/>
