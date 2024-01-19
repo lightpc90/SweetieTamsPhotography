@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import { whatsappUrl } from "../utility/whatsappChatProps";
 
 const FooterSiteMap = () => {
   return (
@@ -10,7 +11,9 @@ const FooterSiteMap = () => {
         </p>
         {/* Navigation Links */}
         <div className="flex flex-col gap-2 md:text-2xl mb-5">
-          <div>Chat Me!</div>
+          <Link href={whatsappUrl} target="_blank" rel="noopener noreferrer">
+            Chat Me!
+          </Link>
           <Link href="/about">About</Link>
           <Link href="/blog">Blog</Link>
         </div>

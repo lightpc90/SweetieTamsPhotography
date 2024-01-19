@@ -13,7 +13,7 @@ const ImageSlider = () => {
           <Fade>
               {headerImages.map((img, i) => (
                   <div key={i} className='w-full'>
-                      <div className='flex justify-center h-[400px] lg:h-[800px] items-center bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${img.src})` }}>
+                      <div className='flex justify-center h-[400px] md:h-[800px] items-center bg-cover bg-center bg-no-repeat' style={{ backgroundImage: `url(${img.src})` }}>
                           
                       </div>
                   </div>

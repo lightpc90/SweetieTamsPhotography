@@ -6,6 +6,7 @@ import PortfolioLinks from "./PortfolioLinks";
 
 
 import { SlArrowDown, SlArrowRight } from "react-icons/sl";
+import { whatsappUrl } from "../utility/whatsappChatProps";
 
 const Navbar = () => {
  
@@ -28,14 +29,19 @@ const Navbar = () => {
         >
           <div className="flex gap-1 items-center">
             <div>Portfolio</div>
-            <div className="text-sm">{isOpened ? <SlArrowDown/>:<SlArrowRight/> }</div>
+            <div className="text-sm">
+              {isOpened ? <SlArrowDown /> : <SlArrowRight />}
+            </div>
           </div>
         </div>
-        <div
+        <Link
+          href={whatsappUrl}
+          target="_blank"
+          rel="noopener noreferrer"
           className="hover:text-[#f59e0b] hover:font-bold hover:text-2xl"
         >
           Chat Me!
-        </div>
+        </Link>
         <Link
           href="/about"
           className="hover:text-[#f59e0b] hover:font-bold hover:text-2xl"
@@ -51,7 +57,7 @@ const Navbar = () => {
       </div>
       {isOpened && (
         <div>
-          <PortfolioLinks/>
+          <PortfolioLinks />
         </div>
       )}
     </div>

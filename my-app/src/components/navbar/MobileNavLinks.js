@@ -6,6 +6,7 @@ import PortfolioLinks from "./PortfolioLinks";
 import { useAppContext } from "@/context/AppStates";
 
 import { SlArrowDown, SlArrowRight } from "react-icons/sl";
+import { whatsappUrl } from "../utility/whatsappChatProps";
 
 const MobileNavLinks = () => {
   const {setIsNavOpened}= useAppContext()
@@ -38,13 +39,16 @@ const MobileNavLinks = () => {
           <PortfolioLinks />
         </div>
       )}
-      <div
+      <Link
+        href={whatsappUrl}
+        target="_blank"
+        rel="noopener noreferrer"
         onClick={() => {
           setIsNavOpened(false);
         }}
       >
         Chat Me!
-      </div>
+      </Link>
       <Link
         onClick={() => {
           setIsNavOpened(false);
