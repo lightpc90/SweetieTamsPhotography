@@ -28,7 +28,7 @@ const PortfolioLinks = () => {
         }}
         href="/portfolio/events"
       >
-        Event
+        Wedding & Event
       </Link>
       <Link
         onClick={() => {

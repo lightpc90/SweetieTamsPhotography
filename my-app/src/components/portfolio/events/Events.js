@@ -5,7 +5,7 @@ import Image from "next/image";
 const Events = () => {
   return (
     <div>
-      <div className="font-bold text-5xl lg:text-7xl text-center">Event</div>
+      <div className="font-bold text-5xl lg:text-7xl text-center">Wedding & Event</div>
       <div className="flex flex-wrap justify-center items-center gap-3 my-10">
         {events.map((img, i) => (
           <Image

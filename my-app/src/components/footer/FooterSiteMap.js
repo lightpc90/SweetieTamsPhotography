@@ -22,7 +22,7 @@ const FooterSiteMap = () => {
         <div className="flex flex-col gap-2 md:text-2xl">
           <Link href="/portfolio/portraits">Portrait</Link>
           <Link href="/portfolio/fashions">Fashion</Link>
-          <Link href="/portfolio/events">Event</Link>
+          <Link href="/portfolio/events">Wedding & Event</Link>
           <Link href="/portfolio/remotes">Remote</Link>
           <Link href="/training">Training</Link>
         </div>

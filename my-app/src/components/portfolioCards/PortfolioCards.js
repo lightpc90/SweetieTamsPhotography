@@ -9,7 +9,7 @@ const PortfolioCards = () => {
     { img: portrait, name: "Portrait", link:"/portfolio/portraits" },
     { img: fashion, name: "Fashion", link: "/portfolio/fashions" },
     { img: remote, name: "Remote", link: "/portfolio/remotes" },
-    { img: event, name: "Event", link:"/portfolio/events" },
+    { img: event, name: "Wedding & Event", link:"/portfolio/events" },
   ];
   return <div className="flex lg:w-8/12  justify-center items-center flex-wrap gap-3">
     {coverPictures.map((coverPicture, i) => (
