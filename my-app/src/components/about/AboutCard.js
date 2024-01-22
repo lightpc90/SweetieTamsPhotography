@@ -2,14 +2,13 @@ import React from 'react'
 import Socials from '../header/socials';
 import Link from 'next/link';
 import { whatsappUrl } from '../utility/whatsappChatProps';
+import RoundDp from './RoundDp';
 
 const AboutCard = () => {
   return (
     <div className="flex flex-col mt-[150px] lg:mt-[200px] justify-center items-center relative">
-      <div
-        className="absolute top-[-75px] lg:top-[-150px] w-[150px] h-[150px] lg:w-[290px] shadow-md ring-4 ring-white lg:h-[290px] bg-gray-400 rounded-full bg-center bg-cover bg-no-repeat"
-        style={{ backgroundImage: 'url("/Portrait and Headshot/S1.jpg")' }}
-      ></div>
+      {/* Display picture */}
+      <RoundDp/>
       <div className="bg-[#1A3B2F] flex flex-col justify-center items-center h-[300px] w-[350px] pt-[80px] lg:pt[190px] lg:w-[900px] lg:h-[600px] rounded-md lg:rounded-2xl shadow-md">
         <h2 className="text-white font-bold text-xl">
           SWEETIE TAMS PHOTOGRAPHY
