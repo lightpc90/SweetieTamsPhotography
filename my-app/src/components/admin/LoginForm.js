@@ -8,7 +8,7 @@ const LoginForm = () => {
       <div className="relative flex flex-col w-10/12 lg:w-5/12 mt-[150px] lg:mt-[190px] justify-center items-center ">
         {/* display picture */}
         <RoundDp />
-        <div className="bg-[#1A3B2F] w-full h-[370px] lg:h-[500px] gap-2 flex flex-col justify-center items-center px-3">
+        <div className="bg-[#1A3B2F] w-full rounded-md h-[370px] lg:h-[500px] gap-2 flex flex-col justify-center items-center px-3">
           <input
             type="tex"
             className="w-full lg:w-6/12 px-2 py-1 rounded-sm mt-[160px]"
