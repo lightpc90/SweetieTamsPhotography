@@ -9,7 +9,7 @@ import { headerImages } from '@/data/headerImages/HeaderImages'
 const ImageSlider = () => {
    
   return (
-      <div className='slide-container w-full'>
+      <div className='slide-container w-full '>
           <Fade>
               {headerImages.map((img, i) => (
                   <div key={i} className='w-full'>

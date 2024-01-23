@@ -1,18 +1,13 @@
-'use client'
-
-import {useState} from 'react'
+import Link from "next/link";
 
 const NewBlog = () => {
-    const [addNewBlog, setAddNewBlog] = useState(false)
   return (
-    <div className='my-10 px-3'>
-      {addNewBlog ? (
-        <></>
-      ) : (
-        <button onClick={()=>{setAddNewBlog(true)}} className="bg-[#BD8E25] py-1 px-2 text-white font-semibold">ADD NEW BLOG</button>
-      )}
+    <div className={`my-10 px-3`}>
+      <Link href='/admin/create_new_post' className="bg-[#BD8E25] py-1 px-2 text-white font-semibold">
+        ADD NEW BLOG
+      </Link>
     </div>
   );
-}
+};
 
-export default NewBlog
+export default NewBlog;

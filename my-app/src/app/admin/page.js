@@ -1,8 +1,8 @@
-import React from 'react'
-import AddNewPicture from '@/components/admin/AddNewPicture'
-import PicturesDisplay from '@/components/admin/PicturesDisplay';
-import NewBlog from '@/components/admin/NewBlog';
-import BlogPosts from '@/components/admin/BlogPosts';
+import React from "react";
+import AddNewPicture from "@/components/admin/AddNewPicture";
+import PicturesDisplay from "@/components/admin/PicturesDisplay";
+import NewBlog from "@/components/admin/NewBlog";
+import BlogPosts from "@/components/admin/BlogPosts";
 
 const Page = () => {
   return (
@@ -14,10 +14,10 @@ const Page = () => {
         <AddNewPicture />
       </div>
       <PicturesDisplay />
-      <NewBlog />
-      <BlogPosts/>
+      <NewBlog/>
+      <BlogPosts />
     </div>
   );
-}
+};
 
-export default Page
+export default Page;
