@@ -8,7 +8,7 @@ const Testimonies = () => {
       <p className="text-gray-400">Reviews From Our Costumers</p>
       <p className="font-bold text-xl lg:text-3xl text-center">Testimonies</p>
       <TestimoniesSlide />
-      <Link href='/'>You Can Check all Our Reviews Here</Link>
+      <Link href='/' className='font-semibold'>You Can Check all Our Reviews Here</Link>
     </div>
   );
 }
