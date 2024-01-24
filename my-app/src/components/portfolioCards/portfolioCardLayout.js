@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const PortfolioCardLayout = ({coverPicture}) => {
   return (
-    <Link className="w-full lg:w-5/12 hover:ring-4 hover:ring-yellow-400 hover:scale-105 hover:m-5" href={coverPicture.link}>
+    <Link className="w-full lg:w-5/12 hover:ring-4 hover:ring-yellow-400 ease-linear transform hover:scale-105 transition duration-500 hover:m-5" href={coverPicture.link}>
       <div
         className="bg-white  flex justify-center items-center h-[300px] md:h-[800px] rounded-md text-center shadow-md bg-center bg-cover bg-no-repeat"
         style={{ backgroundImage: `url(${coverPicture.img.src})` }}
