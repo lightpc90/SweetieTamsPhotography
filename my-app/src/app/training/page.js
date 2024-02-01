@@ -1,8 +1,11 @@
 import React from 'react'
+import Training from '@/components/training/Training'
 
 const Page = () => {
   return (
-    <div>Photography Training</div>
+    <div>
+      <Training/>
+    </div>
   )
 }
 

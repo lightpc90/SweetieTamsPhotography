@@ -14,20 +14,19 @@ const OurServices = () => {
           So whenever I am given the opportunity to tell your story, I give it
           my all by:
         </p>
-        <ul className='font-semibold pl-7'>
-          <li>— Delivering high quality images best suit your vision </li>
-          <li> — Communicating effectively</li>
-          <li>— Suggesting creative ideas that </li>
-          <li> — Making you feel relaxed in front of the camera</li>
-          <li>
-            — Suggesting different poses that align with your personality{" "}
+        <ul className='font-semibold pl-6'>
+          <li>- Delivering high quality images best suit your vision </li>
+          <li>- Communicating effectively</li>
+          <li>- Suggesting creative ideas that </li>
+          <li>- Making you feel relaxed in front of the camera</li>
+          <li>- Suggesting different poses that align with your personality{" "}
           </li>
-          <li>— Choosing the perfect location. </li>
+          <li>- Choosing the perfect location. </li>
         </ul>
         <p>
           If you are looking for a portrait or virtual (remote) photographer who
           combines technical expertise with creative vision, I would love to
-          hear from you. Let's tell your story together!
+          hear from you. Let&apos;s tell your story together!
         </p>
       </div>
     </div>
