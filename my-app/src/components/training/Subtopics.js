@@ -10,10 +10,10 @@ const Subtopics = ({ eachTopic, i }) => {
         onClick={() => {
           setTopicOpened(!topicOpened);
         }}
-        className="font-bold text-gray-500 py-2 cursor-pointer bg-white p-2 my-1 shadow-md rounded-md inline-block"
+        className="font-bold text-gray-500 py-2 cursor-pointer bg-white p-2 my-1 shadow-md rounded-md lg:inline-block"
       >{`Week ${i + 1}: ${eachTopic.topic}`}</h4>
       {topicOpened && (
-        <h4 className='bg-gray-800 text-white p-2'>
+        <h4 className='bg-gray-800 text-white p-2 lg:w-4/12'>
           {eachTopic.subtopics.map((subtopic, i) => (
             <p key={i}>{`- ${subtopic}`}</p>
           ))}
