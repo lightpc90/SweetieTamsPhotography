@@ -44,6 +44,16 @@ export const twoMonthsTrainning = {
   duration: "2 Months",
   topics: [
     {
+      topic: "Introduction to Photography",
+      subtopics: [
+        "Definition of Photography",
+        "Types of Photography",
+        "Types of Camera",
+        "Part of a Camera",
+        "Practical: How to handle a camera",
+      ],
+    },
+    {
       topic: " Breaking down Exposure Triangle/Lighting",
       subtopics: [
         "Meaning of the Exposure Triangle",
