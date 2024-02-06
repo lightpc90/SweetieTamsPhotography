@@ -7,7 +7,7 @@ const Page = ({ params }) => {
   const { id, title_author } = params
   const  post = blogPosts[id - 1] || {}
   return (
-    <div>
+    <div className='py-10 md:px-[100px] lg:px-[500px]'>
       <BlogPost post={post} />
     </div>
   )
