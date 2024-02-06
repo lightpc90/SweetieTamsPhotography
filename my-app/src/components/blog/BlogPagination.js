@@ -13,7 +13,7 @@ const {searchedBlogs} = useAppContext()
 
   // Get the current posts based on page number
   const postsPerPage = 10
-  const currentPosts = getPostsByPage(currentPage, postsPerPage)
+  const currentPosts = getPostsByPage(currentPage, postsPerPage, searchedBlogs);
 
   // compute the total pages
   let numPages = Math.ceil(searchedBlogs.length / postsPerPage)
