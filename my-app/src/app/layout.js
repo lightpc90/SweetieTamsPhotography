@@ -1,6 +1,8 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
 
+import { Analytics } from "@vercel/analytics/react";
+
 import { AppProvider } from '@/context/AppStates'
 import Layout from '@/components/Layout'
 
@@ -22,6 +24,7 @@ export default function RootLayout({ children }) {
               style={{ backgroundImage: 'url("/sweetie site bg.png")' }}
             >
               {children}
+              <Analytics />
             </div>
           </Layout>
         </AppProvider>
