@@ -25,12 +25,12 @@ const SearchBar = () => {
   }, [searchedWords]);
 
   return (
-    <div className="relative text-white flex flex-col justify-center lg:w-5/12  ">
+    <div className="relative text-white flex flex-col justify-center lg:w-5/12 ">
       <input
         onChange={handleSearch}
         type="text"
         placeholder="Search blog posts..."
-        className="py-2 pl-3 pr-10 w-full bg-gray-900 "
+        className="py-2 pl-3 pr-10 w-full bg-gray-900 rounded-md shadow-md "
       />
       <div className="absolute right-1">
         <LuSearch size={25} />
