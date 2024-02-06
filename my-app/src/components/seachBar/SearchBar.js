@@ -6,11 +6,11 @@ import { blogPosts } from "@/data/blog/BlogPosts";
 import {LuSearch} from "react-icons/lu";
 
 const SearchBar = () => {
-  const { searchedBlogs, setSearchedBlogs } = useAppContext();
+  const { setSearchedBlogs } = useAppContext();
   const [searchedWords, setSearchedWords] = useState("");
   // search function
   const searchResult = () => {
-    const results = searchedBlogs.filter((post) =>
+    const results = blogPosts.filter((post) =>
       post.title.toLowerCase().includes(searchedWords.toLowerCase())
     );
     setSearchedBlogs(results);
