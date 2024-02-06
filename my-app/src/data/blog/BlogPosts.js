@@ -26,7 +26,7 @@ I am Sweetie Tams, an international photographer based in Nigeria. I tell brand 
 `,
     img: "",
     date: "2024-02-01T12:34:56",
-    link: "/blog",
+    id: 1
   },
   {
     title: "How to build your personal brand",
@@ -68,7 +68,7 @@ Have a great day!
 `,
     img: "",
     date: "2024-01-27T12:34:56",
-    link: "/blog",
+    id:2
   },
   {
     title: "What is Remote Photoshoot?",
@@ -96,6 +96,6 @@ In my next post, I'll explain the steps to a remote photoshoot. You should follo
 `,
     img: "",
     date: "2024-01-21T12:34:56",
-    link: "/blog",
+    id:3
   },
 ];
