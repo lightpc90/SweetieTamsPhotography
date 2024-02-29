@@ -1,9 +1,10 @@
 "use client";
 
 import { useState } from "react";
+import PostBody from "./PostBody";
 
 const NewBlogPost = () => {
-  let initialFormValue = { image: '', title: "", description: "", body: "" };
+  let initialFormValue = { image: "", title: "", description: "", body: "" };
   const [formData, setFormData] = useState(initialFormValue);
   return (
     <div className="flex flex-col p-2 py-10 w-full">
@@ -56,7 +57,8 @@ const NewBlogPost = () => {
         {/* Post body section */}
         <div className="flex flex-col">
           <p className="text-sm text-gray-400">Required</p>
-          <textarea
+          <PostBody />
+          {/* <textarea
             required
             placeholder="Post Body"
             value={formData.body}
@@ -64,7 +66,7 @@ const NewBlogPost = () => {
               setFormData({ ...formData, body: e.target.value });
             }}
             className="bg-[#1A3B2F] p-2 lg:w-4/12 text-white min-h-[400px] max-h-[800px] overflow-auto "
-          />
+          /> */}
         </div>
         <div className="flex flex-wrap gap-3 text-white font-bold text-xl">
           <button className="bg-[#1A3B2F] p-2">Publish</button>
